@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Colour</title>
+</head>
+<body>
+    <style type="text/css">
+        .header {
+            background-color: #55ab2e;
+
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px;
+            overflow: hidden;
+            border-bottom: 1px solid #4c4c4c;
+            font-family: Arial;
+            color: #4c4c4c;
+        }
+
+    .body {
+        width: 400px;
+        font-family: Arial;
+        text-align: justify;
+        font-size: 13px;
+        color: #4c4c4c;
+        margin: 15px auto 10px auto;
+        padding-bottom: 15px;
+        border-bottom: 1px dotted #DDD;
+    }
+</style>
+
+<div style='width: 440px; height: auto; margin: 20px auto; border: 1px solid #4c4c4c;'>
+    <div class="header">
+        <div style="float: left">
+            <img src="data:image/png;base64,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" />
+        </div>
+        <div style="float: right; color: #fff; margin-top: 5px;">Comprovante de Ponto</div>
+    </div>
+    <div class="body">
+        <div style='padding-bottom: 3px;'>Olá Alexandre Fernandes</div>
+        <p>
+            Segue em anexo o seu comprovante de ponto para a seguinte marcação: <strong>19-09-2022 19:10</strong>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

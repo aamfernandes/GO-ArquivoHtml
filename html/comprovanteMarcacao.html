@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Colour</title>
+</head>
+<body>
+    <style type="text/css">
+        .header {
+            /*@Style*/
+
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px;
+            overflow: hidden;
+            border-bottom: 1px solid #4c4c4c;
+            font-family: Arial;
+            color: #4c4c4c;
+        }
+
+    .body {
+        width: 400px;
+        font-family: Arial;
+        text-align: justify;
+        font-size: 13px;
+        color: #4c4c4c;
+        margin: 15px auto 10px auto;
+        padding-bottom: 15px;
+        border-bottom: 1px dotted #DDD;
+    }
+</style>
+
+<div style='width: 440px; height: auto; margin: 20px auto; border: 1px solid #4c4c4c;'>
+    <div class="header">
+        <div style="float: left">
+            <img src="@Model.UrlLogo" />
+        </div>
+        <div style="float: right; color: #fff; margin-top: 5px;">@LabelComprovanteDePonto</div>
+    </div>
+    <div class="body">
+        <div style='padding-bottom: 3px;'>@LabelOla @Model.NomeFuncionario</div>
+        <p>
+            @LabelTituloComprovante <strong>@Model.Marcacao</strong>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
